@@ -5,6 +5,6 @@
 	This is to validate that our docker deployment is successful.  we have deployed docker image using one playbook and container on another.
 	1) This verifies that our CI/CD jenkins job including kubernetes, docker, jenkins and ansible has successfully triggred this automated job.
 	2) This means our CI/CD pipeline setup is successful. congrats !!.
-	3) Again modified for verification.
+	3) Again modified for final verification.
 </body>
 <H1> CONGRATS !! </H1>
