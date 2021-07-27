@@ -7,4 +7,3 @@
 	2) This means our CI/CD pipeline setup is successful. congrats !!.
 	3) Again modified for final verification.
 </body>
-<H1> CONGRATS !! </H1>
