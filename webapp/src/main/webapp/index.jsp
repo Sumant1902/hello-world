@@ -1,9 +1,24 @@
-<h1> Hello, Welcome to Simple DevOps Project !!   </h1>
+<form action="action_page.php">
+  <div class="container">
+    <h1>Register</h1>
+    <p>Please fill in this form to create an account.</p>
+    <hr>
 
-<h1> Congrats on ypur final deployment on dock using ansible playbook </h1>
-<body>
-	This is to validate that our docker deployment is successful.  we have deployed docker image using one playbook and container on another.
-	1) This verifies that our CI/CD jenkins job including kubernetes, docker, jenkins and ansible has successfully triggred this automated job.
-	2) This means our CI/CD pipeline setup is successful. congrats !!.
-	3) "This is final modification for index file" -- if you are seeing this then your job was successfull. CONGRATS !!
-</body>
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" id="email" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+
+    <label for="psw-repeat"><b>Repeat Password</b></label>
+    <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+    <hr>
+
+    <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+    <button type="submit" class="registerbtn">Register</button>
+  </div>
+
+  <div class="container signin">
+    <p>Already have an account? <a href="#">Sign in</a>.</p>
+  </div>
+</form>
